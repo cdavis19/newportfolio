@@ -1,0 +1,161 @@
+.wrapper {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 25px #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+li a:hover {
+    color: rgb(142, 147, 143);
+    text-decoration: none;
+}
+
+li a:active {
+  color: rgb(142, 147, 143);
+  text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color: rgb(142, 147, 143);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://images.designtrends.com/wp-content/uploads/2016/01/27113426/Black-and-White-Lake-Background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home {
+    text-align: center;
+    color: white;
+    margin: 110px;
+    font-size: 50px;
+    text-shadow: 2px 2px 25px #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.name {
+    margin-bottom: 0%;
+
+
+
+}
+
+.front {
+    margin-top: 0%;
+
+}
+
+.image {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.picture {
+  float: left;
+  margin-top: 150px;
+  margin-left: 10%;
+}
+
+.description {
+    width: 220px;
+    margin-left: 30px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.copy {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.project {
+  border: 1px solid white;
+    float: left;
+    max-width: 300px;
+    margin: 10px;
+    background-color: rgb(201, 199, 192);
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: 2px 1px 10px #000000;
+    margin-left: 0px;
+    height: 385px;
+}
+
+.project img {
+    height: 200px;
+    padding: 20px;
+    margin: 0px;
+    width: 260px;
+}
+
+
+
+.project a {
+    display: block;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.project p {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project:hover {
+    transform: scale(1.01);
+}
+
+a:hover {
+    color: white;
+}

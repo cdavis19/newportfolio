@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="myMod">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davis Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- add public -->
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+    <nav>
+        <ul>
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+
+
+    <ng-view></ng-view>
+
+
+
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/chrisdavis19/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        <a href="https://github.com/cdavis19"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a target="_top" href="mailto:cjdavis6791@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+        <span class="copy">  &copy; Chris Davis. All Rights Reserved.
+      </span>
+    </footer>
+
+
+<!-- add public/ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/module.js"></script>
+    <script src="scripts/homeController.js"></script>
+    <script src="scripts/aboutController.js"></script>
+    <script src="scripts/portfolioController.js"></script>
+    <script src="https://use.fontawesome.com/cb6f7c5e39.js"></script>
+
+
+</body>
+
+</html>
